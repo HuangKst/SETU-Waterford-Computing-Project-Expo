@@ -1,5 +1,48 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     background-color: #f4f4f4;
 }
+
+h1,h2{
+    font-weight: bold;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.section {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.content {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+    margin: 10px;
+}
+img {
+    max-width: 50%; /* 让图片不会超过父容器宽度 */
+    height: auto; /* 保持图片原始比例 */
+    display: block; /* 让图片不会有多余的间隙 */
+    margin: 10px auto; /* 图片水平居中，顶部和底部留 10px 间距 */
+    border-radius: 10px; /* 让图片四角有圆角 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影，让图片更立体 */
+}
+
